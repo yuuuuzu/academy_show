@@ -1,0 +1,56 @@
+ポートフォリオ作成
+
+期日20240214
+
+１．コンセプト定義
+オンラインスクール　=>　HTML、CSS、JS、PHPがまんべんなく使える
+期日までに最低限の機能実装を目指す　=> CSS、JSに時間をかけない
+
+コーポレートカラー
+ホワイトベース　オレンジ
+
+導入
+
+
+２. 要件定義
+TOP
+┠─新規登録（窓）
+┃　　　┃
+Main（時間割＋動画）
+	┃
+　　　予約フォーム（窓）
+
+header.php
+　ログイン
+　動画一覧
+　お問い合わせ
+
+index.php(TOP画面)
+ header.php
+ main.php
+ footer.php
+
+a_show.php
+ 時間割.php
+ 動画.php
+
+動画一覧.php
+お問い合わせ.php
+
+
+５. サイトデザイン制作
+決定稿　hisami's案
+
+
+DB
+customer
+id　name　address　phone_num　payment
+
+lesson
+lesson_id　date　time　lesson_name　teacher_id　url　
+
+teacher
+teacher_id　teacher_name
+
+lesson_charge
+lesson_id　id
